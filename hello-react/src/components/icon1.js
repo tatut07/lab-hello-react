@@ -2,7 +2,7 @@ import myImage from '../images/icon1.png'
 
 function Icon1() {
     return (
-        <img 
+        <img class="iconsAll"
         src={myImage}
         alt="icon1"
         />

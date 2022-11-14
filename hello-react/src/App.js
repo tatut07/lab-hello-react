@@ -8,11 +8,17 @@ import Gallery from "./components/gallery";
 function App() {
   return (
    <div className="App">
+    <div className="topArea">
+    <navbar className="navBar">
     <Logo />
     <Menu />
+    </navbar>
     <MainText />
     <Button />
+    </div>
+    <div className="bottomArea">
     <Gallery />
+    </div>
    </div>
   );
 }
